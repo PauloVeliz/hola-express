@@ -5,7 +5,7 @@ app.get('/',c_inicio);
 app.get('/saludo',c_saludo);
 
 function c_inicio(req,res) {
-    res.send('<h1>¡Bonjour Laura! Voilá!</h1>');
+    res.send('<h1>¡Saludos desde Perú! Aquí Paulo.</h1>');
 }
 function c_saludo(req,res) {
     res.send('<h1>Pagina de saludo Express</h1>');
